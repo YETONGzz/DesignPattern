@@ -1,4 +1,4 @@
-package com.yetong.AdapterPattern;
+package com.yetong.AdapterPattern.ObjectPattern;
 
 /**
  * 适配者
