@@ -34,9 +34,15 @@ public class Test2 extends Thread {
     }
 
     @Test
-    public void test(){
+    public void test() {
         System.out.println(new HashMap<>());
         Map map = new TreeMap();
         System.out.println();
+        EnumSingleton test = EnumSingleton.INSTANCE.test();
+        EnumSingleton test1 = EnumSingleton.INSTANCE.test();
+        System.out.println(test1.getClass());
+        System.out.println(test);
+        System.out.println(test == test1);
     }
+
 }
