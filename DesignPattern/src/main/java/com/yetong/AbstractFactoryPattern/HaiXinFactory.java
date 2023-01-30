@@ -6,7 +6,6 @@ import com.yetong.AbstractFactoryPattern.ElectricProduct.Television;
 import com.yetong.AbstractFactoryPattern.ElectricProduct.impl.HaiXinAir;
 import com.yetong.AbstractFactoryPattern.ElectricProduct.impl.HaiXinTelevision;
 import com.yetong.AbstractFactoryPattern.ElectricProduct.impl.HaixinFridge;
-import org.hamcrest.Factory;
 
 /**
  * 海信工厂  创建海信产品族
