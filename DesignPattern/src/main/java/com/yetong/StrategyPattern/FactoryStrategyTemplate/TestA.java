@@ -14,7 +14,7 @@ public class TestA {
 
     public static void main(String[] args) {
         SpringApplication.run(TestA.class);
-        Handler invokeHandler = HandlerFactory.getInvokeHandler("2");
-        System.out.println(invokeHandler.twoCalucte());
+        Handler invokeHandler = HandlerFactory.getInvokeHandler2("fix");
+        System.out.println(invokeHandler.oneCalcute());
     }
 }

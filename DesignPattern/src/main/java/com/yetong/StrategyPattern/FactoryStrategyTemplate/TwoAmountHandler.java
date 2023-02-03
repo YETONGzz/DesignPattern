@@ -8,6 +8,16 @@ import org.springframework.stereotype.Component;
 @Component
 public class TwoAmountHandler extends AbstractHandler{
 
+    public String des = "two";
+
+    public String getDes() {
+        return des;
+    }
+
+    public void setDes(String des) {
+        this.des = des;
+    }
+
     @Override
     public double twoCalucte() {
         return 100;
