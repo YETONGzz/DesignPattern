@@ -5,13 +5,20 @@ package com.yetong.StatePattern.Crcle;
  */
 public class Screen {
 
+    private StateHandler stateHandler;
+
     private State currentState, normalState, largerState, largestState;
 
     public Screen() {
-        this.currentState = new NormalState();
+        normalState = new NormalState();
+        this.currentState = normalState;
+        this.largerState = new LargeState();
+        this.largestState = new ThreeState();
     }
 
-    public void disPlay(){
+    public void disPlay() {
 
+        stateHandler.request();
+         
     }
 }
