@@ -32,9 +32,7 @@ public class PrototypeManager {
 
 
     public static PrototypeManager getPrototypeManager() {
-
         return pm;
-
     }
 
 
